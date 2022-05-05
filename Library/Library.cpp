@@ -105,8 +105,13 @@ int main()
         }
         else if (userChoice == "3") {
             //view details of books
-            for (int i = 0; i < books.size(); i++) {
-                books[i]->showDetails();
+            if(books.size()<1){
+                std::cout << "No books have been created\n\n";
+            }
+            else {
+                for (int i = 0; i < books.size(); i++) {
+                    books[i]->showDetails();
+                }
             }
         }
         //If they choose to add a book
@@ -140,8 +145,13 @@ int main()
         }
         else if (userChoice == "5") {
             //view details of students
-            for (int i = 0; i < students.size(); i++)
-                students[i]->showStudentDetails();
+            if(students.size()<1){
+                std::cout << "No student records have been created yet\n\n";
+            }
+            else {
+                for (int i = 0; i < students.size(); i++)
+                    students[i]->showStudentDetails();
+            }
         }   
         //If they choose to add a student
         else if (userChoice == "6") {
@@ -179,7 +189,7 @@ int main()
 
             //clearing the vector
             students.clear();
-            std::cout << "Students vector cleared.\n";
+            std::cout << "Student records deleted.\n";
 
             //deleting all objects in books vector
             for (auto it = books.begin(); it != books.end(); it++)
@@ -187,7 +197,7 @@ int main()
 
             //clearing the vector
             books.clear();
-            std::cout << "Books vector cleared.\n";
+            std::cout << "Book records deleted.\n";
 
         }
         else if(userChoice != "0") {

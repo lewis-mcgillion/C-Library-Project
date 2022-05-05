@@ -1,0 +1,15 @@
+# ninja log v5
+41	1755	6734464934649470	CMakeFiles/C_Library_Project.dir/Library/Book.obj	747762093a3666f4
+59	1759	6734464934679506	CMakeFiles/C_Library_Project.dir/Library/Student.obj	3bb6466d191a9d29
+2	1788	6734464934999493	CMakeFiles/C_Library_Project.dir/Library/Library.obj	7656bd200dacce5f
+1788	3051	6734464946580363	C_Library_Project.exe	e1cb012032784dfe
+1	1652	6734468622240918	CMakeFiles/C_Library_Project.dir/Library/Student.obj	3bb6466d191a9d29
+1653	2152	6734468626510195	C_Library_Project.exe	e1cb012032784dfe
+2	1676	6734469518670454	CMakeFiles/C_Library_Project.dir/Library/Library.obj	7656bd200dacce5f
+1678	2173	6734469523053627	C_Library_Project.exe	e1cb012032784dfe
+1	1709	6734470147661504	CMakeFiles/C_Library_Project.dir/Library/Library.obj	7656bd200dacce5f
+1711	2303	6734470152961071	C_Library_Project.exe	e1cb012032784dfe
+1	1499	6734471128799916	CMakeFiles/C_Library_Project.dir/Library/Student.obj	3bb6466d191a9d29
+1501	1904	6734471132211900	C_Library_Project.exe	e1cb012032784dfe
+1	1751	6734472487054929	CMakeFiles/C_Library_Project.dir/Library/Student.obj	3bb6466d191a9d29
+1753	2214	6734472491205007	C_Library_Project.exe	e1cb012032784dfe

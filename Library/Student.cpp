@@ -6,6 +6,8 @@ Student::Student(int ID, std::string fName, std::string lName){
 	studentID = ID;
 	firstName = fName;
 	lastName = lName;
+    bookLoaned = false;
+    loanedBook = nullptr;
 }
 
 //student constructor, takes parameters for all member variabes and sets them accordingly
@@ -19,7 +21,6 @@ Student::Student(int ID, std::string fName, std::string lName, bool bLoaned, Boo
 
 //students destructor
 Student::~Student() {
-	std::cout << "Student record deleted.\n";
 }
 
 //loanBook function
@@ -45,6 +46,8 @@ void Student::returnBook() {
 		loanedBook->setOnLoan(false);
 		bookLoaned = false;
 		loanedBook = nullptr;
+
+        std::cout << "Book returned\n\n";
 	}
 	else {
 		std::cout << "Student does not have a book on loan.\n\n";
@@ -56,7 +59,7 @@ void Student::showStudentDetails() {
 	std::cout << "\tStudent ID = " << studentID << "\n\tFirst Name = " << firstName << "\n\tLast Name = " << lastName << "\n\tBook Loaned? = ";
 	if (bookLoaned) {
 		std::cout << "Yes\n";
-		std::cout << "Book name = " << loanedBook->getbookName();
+		std::cout << "\tBook name = " << loanedBook->getbookName() << "\n\n";
 	}
 	else {
 		std::cout << "No\n\n";

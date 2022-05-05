@@ -1,0 +1,3 @@
+C:/Users/lewis/github/C-Library-Project/cmake-build-debug/CMakeFiles/C_Library_Project.dir
+C:/Users/lewis/github/C-Library-Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lewis/github/C-Library-Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
